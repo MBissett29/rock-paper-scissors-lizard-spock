@@ -7,4 +7,17 @@ body {
 #game-title {
     font-family: 'Fredoka One', cursive;
     color: slategray;
+    
+}
+
+.game-space {
+    background-color: lightgrey;
+    box-sizing: border-box;
+    width: 90%;
+    height: 80vh;
+    max-height: 800px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5%;
 }
