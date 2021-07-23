@@ -4,11 +4,15 @@ body {
     text-align: center;
 }
 
+/* Heading */
+
 #game-title {
     font-family: 'Fredoka One', cursive;
     color: slategray;
     
 }
+
+/* Game Area */
 
 .game-space {
     background-color: lightgrey;
@@ -21,3 +25,5 @@ body {
     margin-right: auto;
     padding: 5%;
 }
+
+/* Buttons for controls */
