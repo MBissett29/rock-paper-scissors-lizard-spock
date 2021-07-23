@@ -1,0 +1,10 @@
+body {
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+#game-title {
+    font-family: 'Fredoka One', cursive;
+    color: slategray;
+}
