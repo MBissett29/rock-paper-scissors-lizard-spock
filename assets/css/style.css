@@ -23,19 +23,20 @@ body {
     max-width: 900px;
     margin-left: auto;
     margin-right: auto;
-    padding: 5%;
+    padding: 30px;
 }
 
 .player-choice {
     width: 80%;
+    height: 300px;
     margin: auto;
-    padding: 20px 0;
+    padding: 20px;
 }
 
 /* Buttons for controls */
 
 .btn {
-    
+    margin: 30px;
     width: 100px;
     height: 100px;
     border: 0;
@@ -47,24 +48,34 @@ body {
 #rock {
     color: #E76F51;
     font-size: 100px;
+    margin: 0;
+    padding: 10px;
 }
 
 #paper {
     color: #E9C46A;
     font-size: 100px;
+    margin: 0;
+    padding: 10px;
 }
 
 #scissors {
     color: #F4A261;
     font-size: 100px;
+    margin: 0;
+    padding: 10px;
 }
 
 #lizard {
     color: #2A9D8F;
     font-size: 100px;
+    margin: 0;
+    padding: 10px;
 }
 
 #spock {
     color: #264653;
     font-size: 100px;
+    margin: 0;
+    padding: 10px;
 }
