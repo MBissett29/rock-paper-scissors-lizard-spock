@@ -26,4 +26,45 @@ body {
     padding: 5%;
 }
 
+.player-choice {
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+}
+
 /* Buttons for controls */
+
+.btn {
+    
+    width: 100px;
+    height: 100px;
+    border: 0;
+    background-color: lightgrey;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#rock {
+    color: #E76F51;
+    font-size: 100px;
+}
+
+#paper {
+    color: #E9C46A;
+    font-size: 100px;
+}
+
+#scissors {
+    color: #F4A261;
+    font-size: 100px;
+}
+
+#lizard {
+    color: #2A9D8F;
+    font-size: 100px;
+}
+
+#spock {
+    color: #264653;
+    font-size: 100px;
+}
