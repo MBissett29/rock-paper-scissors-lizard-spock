@@ -24,6 +24,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding: 30px;
+    border-radius: 12px;
 }
 
 .player-choice {
