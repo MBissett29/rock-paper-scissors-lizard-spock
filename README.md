@@ -1,2 +1,2 @@
-# rock-paper-scissors-lizard-spock
-A Javascript Mini Game
+# Rock Paper Scissors Lizard Spock
+
