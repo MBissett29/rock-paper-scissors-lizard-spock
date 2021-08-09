@@ -1,40 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors Lizard Spock</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Open+Sans&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/5450f0d173.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+
 </head>
+
 <body>
     <h1 id="game-title">
         Rock Paper Scissors Lizard Spock
     </h1>
 
-<div class="game-space">
-    <div class="players-choice">
-        <button onclick="whoWins('rock')" class="btn btn-choice" id="rock" type="button"><i class="far fa-hand-rock"></i></button>
-        <button onclick="whoWins('paper')" class="btn btn-choice" id="paper" type="button"><i class="far fa-hand-paper"></i></button>
-        <button onclick="whoWins('scissors')" class="btn btn-choice" id="scissors" type="button"><i class="far fa-hand-scissors"></i></button>
-        <br>
-        <button onclick="whoWins('lizard')" class="btn btn-choice" id="lizard" type="button"><i class="far fa-hand-lizard"></i></button>
-        <button onclick="whoWins('rock')" class="btn btn-choice" id="spock" type="button"><i class="far fa-hand-spock"></i></button>
-    </div>
-    <div class="game-results">
-        <span id="players-choice"></span>
-        <span id="vs" >Vs.</span>
-        <span id="comp-choice"></span>
-    </div>
-    <div class="score-area">
-        <p class="score">Players Score: <span id="wins">0</span></p>
-        <p class ="score">Computers Score: <span id="losses">0</span></p>
-    </div>
+    <div class="game-space">
+        <div class="players-choice">
+            <button class="btn btn-choice" id="rock" type="button"><i class="far fa-hand-rock"></i></button>
+            <button class="btn btn-choice" id="paper" type="button"><i class="far fa-hand-paper"></i></button>
+            <button class="btn btn-choice" id="scissors" type="button"><i class="far fa-hand-scissors"></i></button>
+            <br>
+            <button class="btn btn-choice" id="lizard" type="button"><i class="far fa-hand-lizard"></i></button>
+            <button class="btn btn-choice" id="spock" type="button"><i class="far fa-hand-spock"></i></button>
+        </div>
+        <div class="game-results">
+            <span id="players-choice"></span>
+            <span id="vs">Vs.</span>
+            <span id="comp-choice"></span>
+        </div>
+        <div class="score-area">
+            <p class="score">Players Score: <span id="wins">0</span></p>
+            <p class="score">Computers Score: <span id="losses">0</span></p>
+        </div>
 
-</div>
+    </div>
+    <script src="https://kit.fontawesome.com/5450f0d173.js" crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"> </script>
 </body>
+
 </html>

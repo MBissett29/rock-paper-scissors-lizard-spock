@@ -1,14 +1,24 @@
+const rock = document.getElementById("rock");
+let result = "";
+
+rock.addEventListener('click', function () {
+    whoWins('Rock');
+
+});
+
+
 /**
  * Player Choice Function
  * Display Player Choice Function
  */
- function whoWins(playerChoice) {
+function whoWins(playerChoice) {
+    compChoice = decideCompChoice()
     if (playerChoice === compChoice) {
         result = 'Draw!';
     } else {
         if (playerChoice === "Rock" && (compChoice == "Scissors" || compChoice == "Lizard")) {
             result = 'Win!';
-        } else if (playerChoice=== "Paper" && (compChoice == "Rock" || compChoice == "Spock")) {
+        } else if (playerChoice === "Paper" && (compChoice == "Rock" || compChoice == "Spock")) {
             result = 'Win!';
         } else if (playerChoice === "Scissors" && (compChoice == "Paper" || compChoice == "Lizard")) {
             result = 'Win!';
@@ -19,6 +29,8 @@
         } else {
             result = 'Loss!';
         }
+        results(result, playerChoice, compChoice);
+    }
 }
 
 /**
@@ -27,18 +39,18 @@
 
 function decideCompChoice() {
 
-    let compChoice = Math.floor(Math.random() *5) +1
-    
+    let compChoice = Math.floor(Math.random() * 5) + 1
+
     if (compChoice === 1) {
-       return "rock";
-    } else if (compChoice === 2) { 
-       return "paper";
+        return "Rock";
+    } else if (compChoice === 2) {
+        return "Paper";
     } else if (compChoice === 3) {
-    return "scissors";
+        return "Scissors";
     } else if (compChoice === 4) {
-    return "lizard";
+        return "Lizard";
     } else if (compChoice === 5) {
-    return "spock";
+        return "Spock";
     } else {
         return "error";
     }
@@ -46,7 +58,12 @@ function decideCompChoice() {
 /**
  * Show Results Function
  */
-
+function results(result, playerChoice, compChoice) {
+    console.log(result);
+    console.log("player = " + playerChoice);
+    console.log("comp = " + compChoice);
+    result = "";
+}
 /**
  * Score Function
  */
