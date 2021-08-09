@@ -8,7 +8,7 @@
  * Generates a computer choice by assigning it a rondom number
  */
 
-function decideCompChoice {
+function decideCompChoice() {
 
     let compChoice = Math.floor(Math.random() *5) +1
     

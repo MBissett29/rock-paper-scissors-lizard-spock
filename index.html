@@ -18,12 +18,12 @@
 
 <div class="game-space">
     <div class="players-choice">
-        <button class="btn btn-choice" id="rock" type="button"><i class="far fa-hand-rock"></i></button>
-        <button class="btn btn-choice" id="paper" type="button"><i class="far fa-hand-paper"></i></button>
-        <button class="btn btn-choice" id="scissors" type="button"><i class="far fa-hand-scissors"></i></button>
+        <button onclick="whoWins('rock')" class="btn btn-choice" id="rock" type="button"><i class="far fa-hand-rock"></i></button>
+        <button onclick="whoWins('paper')" class="btn btn-choice" id="paper" type="button"><i class="far fa-hand-paper"></i></button>
+        <button onclick="whoWins('scissors')" class="btn btn-choice" id="scissors" type="button"><i class="far fa-hand-scissors"></i></button>
         <br>
-        <button class="btn btn-choice" id="lizard" type="button"><i class="far fa-hand-lizard"></i></button>
-        <button class="btn btn-choice" id="spock" type="button"><i class="far fa-hand-spock"></i></button>
+        <button onclick="whoWins('lizard')" class="btn btn-choice" id="lizard" type="button"><i class="far fa-hand-lizard"></i></button>
+        <button onclick="whoWins('rock')" class="btn btn-choice" id="spock" type="button"><i class="far fa-hand-spock"></i></button>
     </div>
     <div class="game-results">
         <span id="players-choice"></span>
