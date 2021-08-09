@@ -2,7 +2,24 @@
  * Player Choice Function
  * Display Player Choice Function
  */
-
+ function whoWins(playerChoice) {
+    if (playerChoice === compChoice) {
+        result = 'Draw!';
+    } else {
+        if (playerChoice === "Rock" && (compChoice == "Scissors" || compChoice == "Lizard")) {
+            result = 'Win!';
+        } else if (playerChoice=== "Paper" && (compChoice == "Rock" || compChoice == "Spock")) {
+            result = 'Win!';
+        } else if (playerChoice === "Scissors" && (compChoice == "Paper" || compChoice == "Lizard")) {
+            result = 'Win!';
+        } else if (playerChoice === "Lizard" && (compChoice == "Spock" || compChoice == "Paper")) {
+            result = 'Win!';
+        } else if (playerChoice === "Spock" && (compChoice == "Scissors" || compChoice == "Rock")) {
+            result = 'Win!';
+        } else {
+            result = 'Loss!';
+        }
+}
 
 /**
  * Generates a computer choice by assigning it a rondom number
