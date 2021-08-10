@@ -15,30 +15,32 @@
 </head>
 
 <body>
+    <header>
     <h1 id="game-title">
         Rock Paper Scissors Lizard Spock
     </h1>
+    </header>
 
-    <div class="game-space">
-        <div class="players-choice">
+    <main class="game-space">
+        <section class="players-choice">
             <button class="btn btn-choice" id="rock" type="button"><i class="far fa-hand-rock"></i></button>
             <button class="btn btn-choice" id="paper" type="button"><i class="far fa-hand-paper"></i></button>
             <button class="btn btn-choice" id="scissors" type="button"><i class="far fa-hand-scissors"></i></button>
             <br>
             <button class="btn btn-choice" id="lizard" type="button"><i class="far fa-hand-lizard"></i></button>
             <button class="btn btn-choice" id="spock" type="button"><i class="far fa-hand-spock"></i></button>
-        </div>
-        <div class="game-results">
+        </section>
+        <section class="game-results">
             <span id="players-choice"></span>
             <span id="vs">Vs.</span>
             <span id="comp-choice"></span>
-        </div>
-        <div class="score-area">
+        </section>
+        <section class="score-area">
             <p class="score">Players Score: <span id="wins">0</span></p>
             <p class="score">Computers Score: <span id="losses">0</span></p>
-        </div>
+        </section>
 
-    </div>
+    </main>
     <script src="https://kit.fontawesome.com/5450f0d173.js" crossorigin="anonymous"></script>
     <script src="assets/js/script.js"> </script>
 </body>
