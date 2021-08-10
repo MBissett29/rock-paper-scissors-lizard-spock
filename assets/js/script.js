@@ -83,3 +83,8 @@ function results(result, playerChoice, compChoice) {
 /**
  * Score Function
  */
+function playerScore () {
+
+    let zeroScore = parseInt(document.getElementById('wins').innerText);
+    document.getElementById('wins').innerText = ++zeroScore;
+}
