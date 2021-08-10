@@ -58,18 +58,17 @@ function decideCompChoice() {
 
     let compChoice = Math.floor(Math.random() * 5) + 1
 
-    if (compChoice === 1) {
-        return "Rock";
-    } else if (compChoice === 2) {
-        return "Paper";
-    } else if (compChoice === 3) {
-        return "Scissors";
-    } else if (compChoice === 4) {
-        return "Lizard";
-    } else if (compChoice === 5) {
-        return "Spock";
-    } else {
-        return "error";
+    switch (compChoice) {
+        case 1:
+            return "Rock";
+        case 2:
+            return "Paper";
+        case 3:
+            return "Scissors";
+        case 4:
+            return "Lizard";
+        case 5:
+            return "Spock";
     }
 }
 /**
