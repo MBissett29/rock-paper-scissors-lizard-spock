@@ -1,9 +1,13 @@
-const rock = document.getElementById("rock");
+const Rock = document.getElementById("rock");
+const Paper = document.getElementById("paper")
+const Scissors = document.getElementById("scissors")
+const Lizard = document.getElementById("lizard")
+const Spock = document.getElementById("spock")
+
 let result = "";
 
 rock.addEventListener('click', function () {
     whoWins('Rock');
-
 });
 
 
