@@ -79,6 +79,15 @@ function results(result, playerChoice, compChoice) {
     console.log("player = " + playerChoice);
     console.log("comp = " + compChoice);
     result = "";
+
+    if (result === 'Win!') {
+        playerChoice = playerScore()
+    } else if (result === 'Loss!') {
+        compChoice = compScore()
+    } else {
+        error
+    }
+
 }
 /**
  * Score Function
