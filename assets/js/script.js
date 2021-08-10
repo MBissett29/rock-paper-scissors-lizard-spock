@@ -6,9 +6,22 @@ const Spock = document.getElementById("spock")
 
 let result = "";
 
-rock.addEventListener('click', function () {
+Rock.addEventListener('click', function () {
     whoWins('Rock');
 });
+Paper.addEventListener('click', function () {
+    whoWins('Paper');
+});
+Scissors.addEventListener('click', function () {
+    whoWins('Scissors');
+});
+Lizard.addEventListener('click', function () {
+    whoWins('Lizard');
+});
+Spock.addEventListener('click', function () {
+    whoWins('Spock');
+});
+
 
 
 /**
