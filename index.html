@@ -23,12 +23,12 @@
 
     <main class="game-space">
         <section class="players-choice">
-            <button class="btn btn-choice" id="rock" type="button"><i class="far fa-hand-rock"></i></button>
-            <button class="btn btn-choice" id="paper" type="button"><i class="far fa-hand-paper"></i></button>
-            <button class="btn btn-choice" id="scissors" type="button"><i class="far fa-hand-scissors"></i></button>
+            <button class="btn rock" id="rock"><i class="far fa-hand-rock"></i></button>
+            <button class="btn paper" id="paper"><i class="far fa-hand-paper"></i></button>
+            <button class="btn scissors" id="scissors"><i class="far fa-hand-scissors"></i></button>
             <br>
-            <button class="btn btn-choice" id="lizard" type="button"><i class="far fa-hand-lizard"></i></button>
-            <button class="btn btn-choice" id="spock" type="button"><i class="far fa-hand-spock"></i></button>
+            <button class="btn lizard" id="lizard"><i class="far fa-hand-lizard"></i></button>
+            <button class="btn spock" id="spock"><i class="far fa-hand-spock"></i></button>
         </section>
         <section class="game-results">
             <span id="players-choice"></span>
@@ -39,6 +39,7 @@
             <p class="score">Players Score: <span id="wins">0</span></p>
             <p class="score">Computers Score: <span id="losses">0</span></p>
         </section>
+        <button id="reset-btn">Reset</button>
 
     </main>
     <script src="https://kit.fontawesome.com/5450f0d173.js" crossorigin="anonymous"></script>
