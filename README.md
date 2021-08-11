@@ -9,3 +9,25 @@ In this section it shows the basic structure of what was planned for the game. T
 There is also a rough draft about the user stories to help with building the game, about what the user might want to do whilst interacting with the game.
 
 Here shows a screen shot of text boxes explaining how the game is divided into seperate divs and links to websites with a colour pallete and rules to the game.
+
+## Features
+
+__Main Title__
+
+* At the top of the page you can find the main title, which explains to the player what the mini game is called.
+
+__Player Choice Area__
+
+* This section is for the player to select which option they would like to use to verse the computer.
+
+__Results Area__
+
+* The section shows the outcome of the match, from players choice to the left and computers choice to the right.
+
+__Scoring Area__
+
+* This section shows how many points the player has and also how many points the computer has.
+
+__Reset Button__
+
+* This is a button to allow the player to reset the game so that the scores will show 0.
