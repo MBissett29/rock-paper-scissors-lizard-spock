@@ -107,3 +107,18 @@ spock.addEventListener("click", function () {
 function showCompScore(compChoice) {
     document.getElementById("comp-choice").innerHTML = `<button class="btn ${compChoice.toLowerCase()}"><i class="far fa-hand-${compChoice.toLowerCase()}"></i></button>`;
 }
+
+/**
+ * Score Function
+ */
+ function playerScore() {
+
+    let zeroScore = parseInt(document.getElementById("wins").innerText);
+    document.getElementById("wins").innerText = ++zeroScore;
+}
+
+function compScore() {
+
+    let zeroScore = parseInt(document.getElementById("losses").innerText);
+    document.getElementById("losses").innerText = ++zeroScore;
+}
