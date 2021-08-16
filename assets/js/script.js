@@ -1,10 +1,12 @@
-const Rock = document.getElementById("rock");
-const Paper = document.getElementById("paper")
-const Scissors = document.getElementById("scissors")
-const Lizard = document.getElementById("lizard")
-const Spock = document.getElementById("spock")
+const rock = document.getElementById("rock");
+const paper = document.getElementById("paper");
+const scissors = document.getElementById("scissors");
+const lizard = document.getElementById("lizard");
+const spock = document.getElementById("spock");
 
 let result = "";
+let playerChoice = "";
+let compChoice = "";
 
 Rock.addEventListener('click', function () {
     whoWins('Rock');
@@ -47,7 +49,6 @@ function whoWins(playerChoice) {
             result = 'Loss!';
         }
         results(result, playerChoice, compChoice);
-    }
 }
 
 /**
@@ -69,6 +70,8 @@ function decideCompChoice() {
             return "Lizard";
         case 5:
             return "Spock";
+        default:
+            return "Error";
     }
 }
 /**
@@ -79,6 +82,7 @@ function results(result, playerChoice, compChoice) {
     console.log("player = " + playerChoice);
     console.log("comp = " + compChoice);
     result = "";
+}
 
     if (result === 'Win!') {
         playerChoice = playerScore()
@@ -89,6 +93,7 @@ function results(result, playerChoice, compChoice) {
     }
 
 }
+
 /**
  * Score Function
  */
