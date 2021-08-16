@@ -134,4 +134,5 @@ function compScore() {
      document.getElementById("wins").innerText = "0";
      document.getElementById("losses").innerText = "0";
      document.getElementById("players-choice").innerHTML = "";
+     document.getElementById("comp-choice").innerHTML = "";
  }
