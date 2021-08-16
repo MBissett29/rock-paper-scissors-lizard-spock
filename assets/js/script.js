@@ -122,3 +122,16 @@ function compScore() {
     let zeroScore = parseInt(document.getElementById("losses").innerText);
     document.getElementById("losses").innerText = ++zeroScore;
 }
+
+/**
+ * Reset Function
+ */
+ const resetBtn = document.getElementById('reset-btn');
+ resetBtn.addEventListener('click', function() {
+     reset();
+ })
+ function reset() {
+     document.getElementById("wins").innerText = "0";
+     document.getElementById("losses").innerText = "0";
+     document.getElementById("players-choice").innerHTML = "";
+ }
