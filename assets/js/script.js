@@ -8,20 +8,20 @@ let result = "";
 let playerChoice = "";
 let compChoice = "";
 
-Rock.addEventListener('click', function () {
-    whoWins('Rock');
+rock.addEventListener("click", function () {
+    whoWins("Rock");
 });
-Paper.addEventListener('click', function () {
-    whoWins('Paper');
+paper.addEventListener("click", function () {
+    whoWins("Paper");
 });
-Scissors.addEventListener('click', function () {
-    whoWins('Scissors');
+scissors.addEventListener("click", function () {
+    whoWins("Scissors");
 });
-Lizard.addEventListener('click', function () {
-    whoWins('Lizard');
+lizard.addEventListener("click", function () {
+    whoWins("Lizard");
 });
-Spock.addEventListener('click', function () {
-    whoWins('Spock');
+spock.addEventListener("click", function () {
+    whoWins("Spock");
 });
 
 
