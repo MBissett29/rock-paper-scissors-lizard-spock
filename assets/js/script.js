@@ -99,17 +99,11 @@ spock.addEventListener("click", function () {
     showCompScore(compChoice);
     result = "";
 }
-/**
- * Score Function
- */
-function playerScore () {
 
-    let zeroScore = parseInt(document.getElementById('wins').innerText);
-    document.getElementById('wins').innerText = ++zeroScore;
+ function showPlayerScore(playerChoice) {
+    document.getElementById("players-choice").innerHTML = `<button class="btn ${playerChoice.toLowerCase()}"><i class="far fa-hand-${playerChoice.toLowerCase()}"></i></button>`;
 }
 
-function compScore() {
-
-    let zeroScore = parseInt(document.getElementById('losses').innerText);
-    document.getElementById('losses').innerText = ++zeroScore;
+function showCompScore(compChoice) {
+    document.getElementById("comp-choice").innerHTML = `<button class="btn ${compChoice.toLowerCase()}"><i class="far fa-hand-${compChoice.toLowerCase()}"></i></button>`;
 }
