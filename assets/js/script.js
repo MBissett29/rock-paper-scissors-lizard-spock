@@ -30,25 +30,29 @@ spock.addEventListener("click", function () {
  * Player Choice Function
  * Display Player Choice Function
  */
-function whoWins(playerChoice) {
-    compChoice = decideCompChoice()
-    if (playerChoice === compChoice) {
-        result = 'Draw!';
+ function whoWins(playerChoice) {
+    compChoice = decideCompChoice();
+    console.log("player = " + playerChoice + " || computer = " + compChoice);
+
+    if (playerChoice == compChoice) {
+        result = "Draw!";
     } else {
-        if (playerChoice === "Rock" && (compChoice == "Scissors" || compChoice == "Lizard")) {
-            result = 'Win!';
-        } else if (playerChoice === "Paper" && (compChoice == "Rock" || compChoice == "Spock")) {
-            result = 'Win!';
-        } else if (playerChoice === "Scissors" && (compChoice == "Paper" || compChoice == "Lizard")) {
-            result = 'Win!';
-        } else if (playerChoice === "Lizard" && (compChoice == "Spock" || compChoice == "Paper")) {
-            result = 'Win!';
-        } else if (playerChoice === "Spock" && (compChoice == "Scissors" || compChoice == "Rock")) {
-            result = 'Win!';
+        if (playerChoice == "Rock" && (compChoice == "Scissors" || compChoice == "Lizard")) {
+            result = "Win!";
+        } else if (playerChoice == "Paper" && (compChoice == "Rock" || compChoice == "Spock")) {
+            result = "Win!";
+        } else if (playerChoice == "Scissors" && (compChoice == "Paper" || compChoice == "Lizard")) {
+            result = "Win!";
+        } else if (playerChoice == "Lizard" && (compChoice == "Spock" || compChoice == "Paper")) {
+            result = "Win!";
+        } else if (playerChoice == "Spock" && (compChoice == "Scissors" || compChoice == "Rock")) {
+            result = "Win!";
         } else {
-            result = 'Loss!';
+            result = "Loss!";
         }
-        results(result, playerChoice, compChoice);
+    }
+    console.log(result);
+    results(result, playerChoice, compChoice);
 }
 
 /**
