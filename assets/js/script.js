@@ -82,23 +82,23 @@ spock.addEventListener("click", function () {
 /**
  * Show Results Function
  */
-function results(result, playerChoice, compChoice) {
-    console.log(result);
-    console.log("player = " + playerChoice);
-    console.log("comp = " + compChoice);
+ function results(result, playerChoice, compChoice) {
+
+    if (result === "Win!") {
+        playerScore();
+    } else if (result === "Loss!") {
+        compScore();
+    } else if (result === "Draw!") {
+        playerScore();
+        compScore();
+    }
+    else {
+        console.log("error");
+    }
+    showPlayerScore(playerChoice);
+    showCompScore(compChoice);
     result = "";
 }
-
-    if (result === 'Win!') {
-        playerChoice = playerScore()
-    } else if (result === 'Loss!') {
-        compChoice = compScore()
-    } else {
-        error
-    }
-
-}
-
 /**
  * Score Function
  */
