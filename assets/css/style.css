@@ -175,6 +175,11 @@ body {
 
 
   /* Modal Content */
+
+  #modal-head {
+    font-family: 'Fredoka One', cursive;
+  }
+
   .modal-content {
     background-color: slategray;
     color: #fff;
