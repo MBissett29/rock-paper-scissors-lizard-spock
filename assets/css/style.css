@@ -41,21 +41,20 @@ body {
 
 /* Results Area */
 
-#players-choice {
 
-}
 
 #vs {
-    padding: 90px 0;
+    padding: 10px;
+    margin: auto;
     font-family: 'Fredoka One', cursive;
     font-size: xx-large;
     vertical-align: middle;
     color: #fff;
-}
-
-#comp-choice {
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 
 }
+
+
 /* Buttons for controls */
 
 .btn {
