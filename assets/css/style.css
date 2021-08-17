@@ -283,3 +283,43 @@ body {
         font-size: 20px; 
     }
 }
+
+@media (max-width:320px) {
+
+    .btn {
+        width: 50px;
+        height: 50px;
+    }
+
+    .rock {
+        font-size: 25px;
+    }
+
+    .paper {
+        font-size: 25px;
+    }
+
+    .scissors {
+        font-size: 25px;
+    }
+
+    .lizard {
+        font-size: 25px;
+    }
+
+    .spock {
+        font-size: 25px;
+    }
+
+    .game-results {
+        height: 100px;
+    }
+
+    .score {
+        font-size: 20px;
+    }
+
+    #vs {
+        font-size: 20px; 
+    }
+}
