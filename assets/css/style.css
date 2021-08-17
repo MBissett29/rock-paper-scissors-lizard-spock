@@ -54,6 +54,16 @@ body {
 
 }
 
+/* Score Area */
+
+.score {
+    display: inline;
+    font-family: 'Fredoka One', cursive;
+    font-size: xx-large;
+    color: #fff;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
 /* Reset and Rules Section */
 
 #reset-btn {
