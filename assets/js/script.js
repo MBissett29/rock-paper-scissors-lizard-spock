@@ -136,3 +136,17 @@ function compScore() {
      document.getElementById("players-choice").innerHTML = "";
      document.getElementById("comp-choice").innerHTML = "";
  }
+
+ /**
+  * Modal
+  */
+
+ // Get the modal
+var modal = document.getElementById("rulesModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("modal-btn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
