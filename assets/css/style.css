@@ -231,4 +231,16 @@ body {
     .spock {
         font-size: 40px;
     }
+
+    .game-results {
+        height: 100px;
+    }
+
+    .score {
+        font-size: 20px;
+    }
+
+    #vs {
+        font-size: 20px; 
+    }
 }
