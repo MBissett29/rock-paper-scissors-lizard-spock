@@ -155,3 +155,21 @@ body {
     padding: 10px;
 }
 
+/* Modal */
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    top: 0;
+    left: 25%;
+    right: 25%;
+    bottom: 25%;
+    width: 50%; 
+    height: 50%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4); 
+  }
+
