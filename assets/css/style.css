@@ -114,3 +114,27 @@ body {
     margin: 0;
     padding: 10px;
 }
+
+/* Reset and Rules Section */
+
+#reset-btn {
+    background-color: #fff;
+    color: gray;
+    text-decoration: none;
+    border: none;
+    border-radius: 8px;
+    height: 30px;
+    width: 60px;
+    cursor: pointer;
+}
+
+#modal-btn {
+    background-color: #fff;
+    color: gray;
+    text-decoration: none;
+    border: none;
+    border-radius: 8px;
+    height: 30px;
+    width: 60px;
+    cursor: pointer;
+}
