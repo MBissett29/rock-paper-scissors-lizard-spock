@@ -173,3 +173,15 @@ body {
     background-color: rgba(0,0,0,0.4); 
   }
 
+
+  /* Modal Content */
+  .modal-content {
+    background-color: slategray;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
