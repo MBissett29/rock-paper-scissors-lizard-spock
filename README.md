@@ -61,9 +61,24 @@ __Reset and Rules Buttons__
 
 __Browser Testing__
 
-This subsection shows all the screenshots of the game being tested on different browsers, either through computer or mobile phone.
+This subsection shows all the screenshots of the game being tested on different browsers, either through computer or mobile devices.
 
 ![Google Screenshot](assets/images/chrome-screenshot.png)
-* Game view on Google Chrome
+* Game view on Google Chrome, on an ultra wide 32 inch monitor.
+
+![Mozilla FireFox Screenshot](assets/images/moz-firefox-scrnshot.jpeg)
+* Game view on Mozilla FireFox, using a 13 inch Macbook Pro.
+
+![Safari Screenshot](assets/images/safari-screenshot.png)
+* Game view on Safari using a 13 inch Macbook Pro. Noticing that it doesnt fit full screen and that the game design does not seem responive.
+
+![iPad Screenshot](assets/images/ipad-screenshot.jpg)
+* Game view on an iPad using DuckDuckGo web-engine, which uses a parent engine of Mozilla FireFox.
+
+![iPhone6 Screenshot](assets/images/iphone6-screenshot.jpeg)
+* Game view on an iPhone 6 using the Safari search engine.
+
+![Pixel4a](assets/images/pixel4a-screenshot.jpeg)
+* Game view on a Google Pixel 4a using the search engine Google Chrome.
 
 __Validator Testing__
