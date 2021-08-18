@@ -123,7 +123,8 @@ __Content__
 
 __Images__
 
-The screenshots of the game that were taken and used in the README file were from the following sites either on a laptop or mobile devices:
+* The screenshots of the game that were taken and used in the README file were from the following sites either on a laptop or mobile devices:
+
     * Google Chrome
     * Mozilla Firefox
     * Safari
