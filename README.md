@@ -61,6 +61,8 @@ __Reset and Rules Buttons__
 
 __Browser Testing__
 
+This subsection shows all the screenshots of the game being tested on different browsers, either through computer or mobile phone.
+
 ![Google Screenshot](assets/images/chrome-screenshot.png)
 * Game view on Google Chrome
 
