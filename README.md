@@ -6,15 +6,15 @@ This is a javascript mini game. The main purpose for this game is to be fun and 
 
 ## Planning
 
-![Draft Idea of Game](assets/images/draft-idea.png)
+![Draft Idea of Game](assets/images/planning-shots/draft-idea.png)
 
 * In this section it shows the basic structure of what was planned for the game. The software that was used was balsamiq wireframes. As you can see in the screen shots provided it shows the different areas of the game from what the player can chose, to showing the results of what they picked verses the computer and also the score to see how many points they have verses the computers score. 
 
-![User Stories](assets/images/user-stories.png)
+![User Stories](assets/images/planning-shots/user-stories.png)
 
 * There is also a rough draft about the user stories to help with building the game, about what the user might want to do whilst interacting with the game.
 
-![Brainstorm](assets/images/brainstorm.png)
+![Brainstorm](assets/images/planning-shots/brainstorm.png)
 
 * Here shows a screen shot of text boxes explaining how the game is divided into seperate sections and links to websites with a colour pallete and rules to the game.
 
@@ -22,38 +22,38 @@ This is a javascript mini game. The main purpose for this game is to be fun and 
 
 __Main Title__
 
-![Main Title](assets/images/main-title.png)
+![Main Title](assets/images/feature-shots/main-title.png)
 
 * At the top of the page you can find the main title, which explains to the player what the mini game is called.
 
 __Player Choice Area__
 
-![Player Choice](assets/images/player-choice.png)
+![Player Choice](assets/images/feature-shots/player-choice.png)
 
 * This section is for the player to select which option they would like to use to verse the computer.
 
 __Results Area__
 
-![Results](assets/images/results.png)
+![Results](assets/images/feature-shots/results.png)
 
 * The section shows the outcome of the match, from players choice to the left and computers choice to the right.
 
 __Scoring Area__
 
-![Scoring Area](assets/images/scores.png)
+![Scoring Area](assets/images/feature-shots/scores.png)
 
 * This section shows how many points the player has and also how many points the computer has.
 
 __Reset and Rules Buttons__
 
-![Reset and Rules Buttons](assets/images/reset-and-rules.png)
+![Reset and Rules Buttons](assets/images/feature-shots/reset-and-rules.png)
 
 * The reset button allows the player to reset the game so that the scores will show 0. 
 
 * The rules button allows the player to access the rules.
 
 
-![Rules Pop Up Modal](assets/images/modal.png)
+![Rules Pop Up Modal](assets/images/feature-shots/modal.png)
 
 * The rules shows up in a pop up modal that shows the player which hand signal defeats the other.
 
@@ -85,5 +85,5 @@ __Validator Testing__
 
 HTML using the official [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmbissett29.github.io%2Frock-paper-scissors-lizard-spock%2F)
 
-![Html Test](assets/images/HTML-test.png)
+![Html Test](assets/images/validator-shots/HTML-test.png)
 * No errors were shown when passing through validator, just three warning messages. These messages suggest to use heading elements for the different sections however the sections are used to style the different parts of the game.
