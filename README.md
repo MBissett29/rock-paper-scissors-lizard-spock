@@ -8,15 +8,15 @@ This is a javascript mini game. The main purpose for this game is to be fun and 
 
 ![Draft Idea of Game](assets/images/draft-idea.png)
 
-In this section it shows the basic structure of what was planned for the game. The software that was used was balsamiq wireframes. As you can see in the screen shots provided it shows the different areas of the game from what the player can chose, to showing the results of what they picked verses the computer and also the score to see how many points they have verses the computers score. 
+* In this section it shows the basic structure of what was planned for the game. The software that was used was balsamiq wireframes. As you can see in the screen shots provided it shows the different areas of the game from what the player can chose, to showing the results of what they picked verses the computer and also the score to see how many points they have verses the computers score. 
 
 ![User Stories](assets/images/user-stories.png)
 
-There is also a rough draft about the user stories to help with building the game, about what the user might want to do whilst interacting with the game.
+* There is also a rough draft about the user stories to help with building the game, about what the user might want to do whilst interacting with the game.
 
 ![Brainstorm](assets/images/brainstorm.png)
 
-Here shows a screen shot of text boxes explaining how the game is divided into seperate sections and links to websites with a colour pallete and rules to the game.
+* Here shows a screen shot of text boxes explaining how the game is divided into seperate sections and links to websites with a colour pallete and rules to the game.
 
 ## Features
 
@@ -56,3 +56,4 @@ __Reset and Rules Buttons__
 ![Rules Pop Up Modal](assets/images/modal.png)
 
 * The rules shows up in a pop up modal that shows the player which hand signal defeats the other.
+
