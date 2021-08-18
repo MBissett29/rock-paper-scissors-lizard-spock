@@ -82,3 +82,6 @@ This subsection shows all the screenshots of the game being tested on different 
 * Game view on a Google Pixel 4a using the search engine Google Chrome.
 
 __Validator Testing__
+
+* HTML using the official [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmbissett29.github.io%2Frock-paper-scissors-lizard-spock%2F)
+    ** No errors were shown when passing through validator, just three warning messages. These messages suggest to use heading elements for the different sections however the sections are used to style the different parts of the game.
