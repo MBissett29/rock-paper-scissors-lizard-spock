@@ -106,3 +106,18 @@ JavaScript using the official [Jshint validator](https://jshint.com/)
     *Then finally once selected, the whole page will be refreshed showing the live link at the top.
 
 * This is the link to the live website: https://mbissett29.github.io/rock-paper-scissors-lizard-spock/
+
+## Credits
+
+__Content__
+
+* The font style for this game was taken from [Google Fonts.](https://fonts.google.com/specimen/Fredoka+One?query=fredo#license)
+
+* The color pallete that was used was from [Coolors.co.](https://coolors.co/264653-2a9d8f-e9c46a-f4a261-e76f51)
+
+* The rules in the modal were taken from [The Big Bang Theory Fandom Page.](https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock)
+
+* The icons used for the buttons were taken from [Font Awesome.](https://www.fontawesome.com/)
+
+* How to implement the Modal was taken from [W3 Schools.](https://www.w3schools.com/howto/howto_css_modals.asp)
+
