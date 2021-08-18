@@ -22,20 +22,30 @@ Here shows a screen shot of text boxes explaining how the game is divided into s
 
 __Main Title__
 
+![Main Title](assets/images/main-title.png)
+
 * At the top of the page you can find the main title, which explains to the player what the mini game is called.
 
 __Player Choice Area__
+
+![Player Choice](assets/images/player-choice.png)
 
 * This section is for the player to select which option they would like to use to verse the computer.
 
 __Results Area__
 
+![Results](assets/images/results.png)
+
 * The section shows the outcome of the match, from players choice to the left and computers choice to the right.
 
 __Scoring Area__
 
+![Scoring Area](assets/images/scores.png)
+
 * This section shows how many points the player has and also how many points the computer has.
 
 __Reset Button__
+
+![Reset and Rules](assets/images/reset-and-rules.png)
 
 * This is a button to allow the player to reset the game so that the scores will show 0.
