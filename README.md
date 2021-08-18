@@ -44,8 +44,15 @@ __Scoring Area__
 
 * This section shows how many points the player has and also how many points the computer has.
 
-__Reset Button__
+__Reset and Rules Buttons__
 
-![Reset and Rules](assets/images/reset-and-rules.png)
+![Reset and Rules Buttons](assets/images/reset-and-rules.png)
 
-* This is a button to allow the player to reset the game so that the scores will show 0.
+* The reset button allows the player to reset the game so that the scores will show 0. 
+
+* The rules button allows the player to access the rules.
+
+
+![Rules Pop Up Modal](assets/images/modal.png)
+
+* The rules shows up in a pop up modal that shows the player which hand signal defeats the other.
