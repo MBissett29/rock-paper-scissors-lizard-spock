@@ -98,4 +98,6 @@ JavaScript using the official [Jshint validator](https://jshint.com/)
 ![JavaScript Test](assets/images/validator-shots/script-test.png)
 * No errors found, however 14 warnings were shown. Showing that the JS extensions didnt support the temperate literals, and calling the glabal variables by Let and Const. 
 
+## Deployment
+
 
