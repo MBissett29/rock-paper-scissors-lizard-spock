@@ -61,5 +61,7 @@ __Reset and Rules Buttons__
 
 __Browser Testing__
 
+![Google Screenshot](assets/images/chrome-screenshot.png)
+* Game view on Google Chrome
 
 __Validator Testing__
