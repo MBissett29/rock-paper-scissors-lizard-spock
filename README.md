@@ -100,4 +100,9 @@ JavaScript using the official [Jshint validator](https://jshint.com/)
 
 ## Deployment
 
+* This site was delpoyed through GitHub pages through the following steps:
+    * First in the GitHub repository you need to find the settings tab.
+    * Second from the souce section drop down the menu to select the master branch.
+    *Then finally once selected, the whole page will be refreshed showing the live link at the top.
 
+* This is the link to the live website: https://mbissett29.github.io/rock-paper-scissors-lizard-spock/
