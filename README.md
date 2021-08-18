@@ -93,4 +93,9 @@ CSS using the official [(Jigsaw) Validator](https://jigsaw.w3.org/css-validator/
 ![CSS Test](assets/images/validator-shots/CSS-test.png)
 * No errors were found.
 
+JavaScript using the official [Jshint validator](https://jshint.com/)
+
+![JavaScript Test](assets/images/validator-shots/script-test.png)
+* No errors found, however 14 warnings were shown. Showing that the JS extensions didnt support the temperate literals, and calling the glabal variables by Let and Const. 
+
 
