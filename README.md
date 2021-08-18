@@ -57,3 +57,8 @@ __Reset and Rules Buttons__
 
 * The rules shows up in a pop up modal that shows the player which hand signal defeats the other.
 
+## Testing
+
+__Browser Testing__
+
+__Validator Testing__
