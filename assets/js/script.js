@@ -129,7 +129,7 @@ function compScore() {
 const resetBtn = document.getElementById('reset-btn');
 resetBtn.addEventListener('click', function () {
     reset();
-})
+});
 function reset() {
     document.getElementById("wins").innerText = "0";
     document.getElementById("losses").innerText = "0";
@@ -153,16 +153,16 @@ var span = document.getElementsByClassName("close")[0];
 // When the user clicks the button, open the modal 
 btn.onclick = function () {
     modal.style.display = "block";
-}
+};
 
 // When the user clicks on <span> (x), close the modal
 span.onclick = function () {
     modal.style.display = "none";
-}
+};
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function (event) {
     if (event.target == modal) {
         modal.style.display = "none";
     }
-}
+};
