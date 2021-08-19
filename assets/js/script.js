@@ -34,7 +34,6 @@ spock.addEventListener("click", function () {
  */
 function whoWins(playerChoice) {
     compChoice = decideCompChoice();
-    console.log("player = " + playerChoice + " || computer = " + compChoice);
 
     if (playerChoice == compChoice) {
         result = "Draw!";
@@ -53,7 +52,6 @@ function whoWins(playerChoice) {
             result = "Loss!";
         }
     }
-    console.log(result);
     results(result, playerChoice, compChoice);
 }
 
