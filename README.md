@@ -131,3 +131,5 @@ __Images__
     * Mozilla Firefox
     * Safari
     * DuckDuckGo
+
+* The responsive mockup design image was taken from [Responsive Design](http://ami.responsivedesign.is/#)
