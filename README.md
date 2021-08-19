@@ -121,6 +121,8 @@ __Content__
 
 * How to implement the Modal was taken from [W3 Schools.](https://www.w3schools.com/howto/howto_css_modals.asp)
 
+* The favicon icon that was used and dowloaded was from [Favicon.io](https://favicon.io/)
+
 __Images__
 
 * The screenshots of the game that were taken and used in the README file were from the following sites either on a laptop or mobile devices:
